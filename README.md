@@ -18,7 +18,7 @@ This browser extension allows users to convert selected text into speech. Simply
 ## Installation
 
 1. Download the extension from the [Main Files](https://github.com/BibekGupta/Text-To-Speech-Extension/tree/main).
-2. Enable Develoe Mode In Brower
+2. Enable Developer Mode In Brower
 3. Open The Folder and Enjoy :D
 
 ## Usage
