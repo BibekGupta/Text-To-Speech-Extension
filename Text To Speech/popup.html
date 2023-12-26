@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  <title>Text to Speech Extension</title>
+</head>
+<body>
+  <style>
+    body{
+      height: 100px;
+      width: 200px;
+      background-color: #ffffff;
+    }
+
+    button{
+      cursor: pointer;
+      width: 40px;
+      height: 40px;
+      user-select: none;
+      font-size: larger;
+    }
+
+    .about_me{
+        position: absolute;
+        bottom: 0px;
+        left: 50%;
+        margin-bottom: 4px;
+        transform: translate(-50%);
+    }
+
+    h1{
+      margin: 0px;
+      position: absolute;
+      top:3px;
+      border-bottom: 1px solid ;
+      border-image: linear-gradient(90deg, rgba(255,255,255,0) 0%, rgba(158,158,158,1) 50%, rgba(255,255,255,1) 100%);
+      border-image-slice: 1;
+      left: 50%;
+      font-family: cursive;
+      text-align: center;
+      width: 100%;
+      font-size: 20px;
+      transform: translate(-50%);
+    }
+
+    .menu-div{
+      height: 100px;
+      gap: 7px;
+      width: 200px;
+      display: flex;
+      margin-top: 20px;
+      flex-wrap: wrap;
+      align-content: center;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+    }
+
+    button:active{
+      transform: translateY(2px);
+    }
+
+
+  </style>
+  <h1>Menu</h1>
+
+  <div class="menu-div">
+      <button>
+        <i class="fa-solid fa-question"></i>
+      </button>
+
+      <button id="stopButton" title="Stop Reading">
+        <i class="fa-solid fa-stop"></i>
+      </button>
+
+      <button id="settingsButton">
+        <i class="fa-solid fa-question"></i>
+      </button>
+  </div>
+
+  <a href="https://github.com/BibekGupta" class="about_me" target="_blank">About Me</a>
+
+  <script src="popup.js"></script>
+</body>
+</html>
