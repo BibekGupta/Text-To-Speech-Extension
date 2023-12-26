@@ -9,7 +9,7 @@
 <body>
   <style>
     body{
-      height: 100px;
+      height: 108px;
       width: 200px;
       background-color: #ffffff;
     }
@@ -62,22 +62,30 @@
       transform: translateY(2px);
     }
 
+    p#status {
+      position: absolute;
+      top: 62%;
+    }
+
 
   </style>
-  <h1>Menu</h1>
+  <h1>Controls</h1>
 
   <div class="menu-div">
-      <button>
-        <i class="fa-solid fa-question"></i>
-      </button>
 
       <button id="stopButton" title="Stop Reading">
         <i class="fa-solid fa-stop"></i>
       </button>
 
-      <button id="settingsButton">
-        <i class="fa-solid fa-question"></i>
+      <button id="pauseButton" title="Pause Reading">
+        <i class="fa-solid fa-pause"></i>
       </button>
+
+      <button id="resumeButton" title="Resume Reading">
+        <i class="fa-solid fa-play"></i>
+      </button>
+
+      <p id="status"></p>
   </div>
 
   <a href="https://github.com/BibekGupta" class="about_me" target="_blank">About Me</a>
