@@ -12,7 +12,7 @@ This browser extension allows users to convert selected text into speech. Simply
 ## Features
 
 - **Easy to Use:** Right-click on any selected text and choose the "Read Loud" option from the context menu.
-- **Customizable Settings:** Adjust the reading speed and other settings to suit your preferences.
+- **Customizable Settings:** Under Development .
 - **Pause and Resume:** Control speech playback with the pause and resume buttons.
 
 ## Installation
