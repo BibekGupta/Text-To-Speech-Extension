@@ -1,4 +1,4 @@
-Debug_Mode = true;
+Debug_Mode = false;
 
 Debug_Mode ? console.log("[🟢] bg.js is running...") : null;
 
